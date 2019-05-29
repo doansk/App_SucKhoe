@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">YOUR HEALTH</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="todo">TODO</string>
+    <!---->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tu_i">Tuổi:</string>
+    <string name="chi_u_cao_cm">Chiều Cao(cm):</string>
+    <string name="c_n_n_ng_kg">Cân Nặng(Kg):</string>
+    <string name="ng_y_o">Ngày Đo:</string>
+    <string name="h_v_t_n">Họ Và Tên:</string>
+    <string name="t_nh_bmi_chu_n_v_nh_ng_l_i_khuy_n_b_ch_cho_b_n">Tính BMI chuẩn và những lời khuyên bổ ích cho bạn</string>
+    <string name="bmi_c_a_b_n_l">BMI của bạn là:</string>
+    <string name="t_nh">TÍNH</string>
+
+</resources>
