@@ -1,42 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/A_uong"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff">
-<TableLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
     >
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#43000000"
+        android:gravity="center"
+        android:text="CHẾ ĐỘ ĂN"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"></TextView>
     <TableRow>
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="161dp"
-        app:srcCompat="@drawable/tangcan"
-        android:layout_marginTop="20dp"
-        android:onClick="TC"
-        />
+        <ImageView
+            android:id="@+id/imgtangcan"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:onClick="nexttangcan"
+            app:srcCompat="@drawable/tangcan" />
     </TableRow>
     <TableRow>
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgbinhthuong"
         android:layout_width="wrap_content"
-        android:layout_height="161dp"
+        android:layout_height="150dp"
+        android:onClick="nextbinhthuong"
         app:srcCompat="@drawable/binhthuong"
         android:layout_marginTop="2dp"
         />
     </TableRow>
     <TableRow>
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imggiamcan"
         android:layout_width="wrap_content"
-        android:layout_height="161dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/giamcan"
         android:layout_marginTop="20dp"
         />
 </TableRow>
 </TableLayout>
-
-</RelativeLayout>
+</ScrollView>

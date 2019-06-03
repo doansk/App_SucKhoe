@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TangCan"
+    android:padding="10dp"
+    android:background="#FFFFFF">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgtc1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/tangcan2"
+        android:layout_marginTop="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Bữa Sáng từ 6-7h \n
+Đây là bữa ăn quan trọng nhất trong ngày, sau khi ngủ dậy, nếu không được nạp thức ăn vào thì cơ thể sẽ chuyển hóa cơ bắp thành năng lượng. Vì vậy cần phải ăn đủ chất và tuyệt đối không bỏ bữa sáng. Thời gian ăn tốt nhất từ 6-7h .
+Tham khảo thực đơn bữa sáng: \n \n
+
+- Ngày 1: 1 Tô phở nên có thêm nước béo + 1 quả trứng luộc + 1 quả chuối \n
+
+- Ngày 2: 1 cái bánh bao + 1 cốc sữa + 1 quả bơ \n
+
+- Ngày 3: Bánh mỳ pate thịt + 1 cốc sữa đậu nành \n
+
+- Ngày 4: 1 bát xôi + 1 hộp sữa chua + Sinh tố mãng cầu \n
+
+- Ngày 5: Bánh cuốn + 1 xúc xích + 1 ly sữa \n
+
+- Ngày 6. Một bát cháo thịt + 1 lát bánh mỳ + 3 múi bưởi \n
+
+- Ngày 7: 1 bát bún + 1 quả trứng ốp + 10 quả nho \n \n
+
+Với thực đơn như trên bạn có thể thay đổi các món ăn giữa các ngày nhưng phải đảm bảo bữa sáng cung cấp được đủ: Chất bột, chất đạm, và các vitamin. Hãy dành thời gian để chú trọng cho bữa sáng.
+\n" />
+    <ImageView
+        android:id="@+id/imgtc2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/imgtangcan1"
+        android:layout_marginTop="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Bữa trưa từ 12h -13h \n
+
+Đây là bữa ăn cung cấp năng lượng cho quá trình vận động buổi chiều. Cơ thể cần được nạp đủ năng lượng. \n \n
+
+- Ngày 1: 2 bát cơm + Bò xào đỗ + canh bí đỏ \n
+
+- Ngày 2: 2 bát cơm + ba chỉ rang cháy cạnh + Canh cải xanh \n
+
+- Ngày 3: 1 bát bún + 1 quả trứng luộc + nước ép hoa quả \n
+
+- Ngày 4: 2 bát cơm + Đùi gà luộc + Canh khoai tây \n
+
+- Ngày 5: 2 bát cơm + Đậu phụ nhồi thịt + Đậu hà lan xào \n
+
+- Ngày 6: 2 bát cơm + Thịt kho tàu trứng + Bí luộc \n
+
+- Ngày 7: 2 bát cơm + Thịt chân giò luộc + rau ngót nấu thịt \n \n
+
+Đây là thực đơn rất giàu dinh dưỡng đảm bảo cho quá trình vận động và tăng cân, có thể thay đổi các món ăn phù hợp với nhu cầu thực tế cũng như khẩu vị từng ngày.
+
+Trong bữa cơm cần đảm bảo các yếu tố về tinh bột, đạm, vitamin, chất xơ \n \n" ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Bữa tối từ 16 - 17h \n
+
+Bữa tối nên ăn đầy đủ dinh dưỡng để chuẩn bị cho 1 thời gian dài cơ thể không nạp thức ăn, tuy nhiên không nên ăn quá no hay giàu chất dinh dưỡng, điều này có thể ảnh hưởng tới hệ tiêu hóa gây cảm giác khó ngủ, mệt mỏi. \n
+
+Thực đơn chuẩn cho bữa tối tăng cân là cũng cấp vừa đủ dinh dưỡng, giàu chất khoáng và vitamin
+
+- Ngày 1: 1 bát cơm + thịt luộc + hoa thiên lý xào \n
+
+- Ngày 2: 1 bát phở + 1 chùm nho + 1 cốc chè sen \n
+
+- Ngày 3: 1 bát cơm + tôm rang + cải luộc \n
+
+- Ngày 4: 1 đĩa mỳ bò + 2 quả chuối \n
+
+- Ngày 5: 1 bát cơm + bò bít tết + canh bí luộc \n
+
+- Ngày 6: 1 bát cơm + gà luộc +  canh cà tím \n
+
+- Ngày 7: 1 bát cơm + Cá thu rán + canh cá nấu chua \n
+
+Lưu ý: Bữa tối nên ăn kèm thêm hoa quả tráng miệng, việc bôt sung vitamin, khoáng chất trong hoa quả giúp bạn ngủ ngon và sâu hơn \n"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3. Thực đơn tăng cân bữa phụ: \n
+Bữa phụ thực chất không được coi là 1 bữa ăn, đây chỉ là ăn phụ để giúp cơ thể có thêm năng lượng. Tùy vào tình hình công việc cũng như nhu cầu của mỗi người để có thể áp dụng bữa ăn này.\n
+
+Các bữa phụ thường được chia vào giữa các bữa ăn chính đó là khung 9-10h, 13-14h và 20h30.\n
+
+Các bữa này nên bổ sung thức ăn hoặc đồ uống nhẹ nhàng, không nên ăn quá nhiều có thể ảnh hưởng tới bữa ăn chính. Các bữa ăn có thể tham khảo:\n
+
+- Nhóm hoa quả : Nho, chuối, bơ, cam, dưa hấu\n
+
+- Nhóm nước uống: Sữa tươi, sữa đậu nành, sữa chua, phô mai, kem, chè \n
+
+- Nhóm ngũ cốc : Bột ngũ cốc, bột dinh dưỡng, hạt điều, đậu phộng,  khoai lang, khoai tây. \n"
+        />
+</TableLayout>
+</ScrollView>
