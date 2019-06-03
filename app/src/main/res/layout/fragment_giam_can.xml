@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TangCan"
+    android:padding="10dp"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgtc1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/giamcan1"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày 1: Chủ yếu bạn ăn là hoa quả, uống nước. \n
+Bữa sáng:\n
+- 8h - 9h: Một quả táo, 1 ly nước\n
+Bữa trưa:\n
+- 11h - 12h: Nửa bát dưa lưới thái miếng, 1 ly nước\n
+
+- 13h30 - 14h: Nửa quả dưa hấu thái miếng, 2 ly nước\n
+Bữa chiều:\n
+- 16h - 17h: Một quả cam, 1 ly nước\n
+Bữa tối:\n
+- 18h30 - 19h: Một quả táo, 1 ly nước\n
+- 20h-21h: Dưa lưới thái miếng, 1 quả ổi, 2 ly nước\n
+Các thực phẩm cần tránh:\n
+
+- Rau: Tránh ăn bất kỳ loại rau nào trong ngày đầu tiên này\n
+
+- Trái cây: Ăn các loại trái cây ngoại trừ chuối\n
+
+- Chất béo: Kiêng các loại chất béo, dầu mỡ kể cả mỡ thực vật\n
+
+- Carbs: Tránh các loại thực phẩm giàu tinh bột và đường, kiêng cả gạo lứt\n
+
+- Sữa chua: Sữa chua, kem, phô mai\n
+
+- Đồ uống: Các loại đồ uống có cồn, nước ngọt có ga, nước ép rau hoặc sinh tố trái cây đóng hộp\n
+
+Trái cây giàu chất xơ giữ cho bạn no lâu hơn, ít chất béo. Ngoài ra, lượng nước hấp thụ cao sẽ loại bỏ độc tố và lượng mỡ thừa.\n
+
+Nên kết hợp các bài thể dục với cường độ vừa phải, tránh tiêu tốn quá nhiều năng lượng khiến bạn mệt mỏi.\n
+" />
+        <ImageView
+            android:id="@+id/imgtc2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/giamcan2"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày 2: Thực đơn của bạn sẽ là các món từ rau. Ăn rau bất cứ khi nào bạn cảm thấy đói. \n
+
+Bữa sáng:\n
+
+- 8h - 9h: Một củ khoai tây hoặc khoai lang luộc\n
+
+Bữa trưa:\n
+
+- 11h - 12h: Salad bắp cải với rau diếp xoắn, 1 ly nước\n
+
+- 13h30 - 14h: Salad rau trộn với dưa chuột hành tây và cà rốt, 2 ly nước\n
+
+Bữa chiều:\n
+
+- 16h - 17h: Một bát con súp lơ xanh luộc, ớt chuông thái lát, 2 ly nước\n
+
+Bữa tối:\n
+
+- 18h30 - 19h: Súp lơ luộc, 1 ly nước\n
+
+- 20h-21h: Salad cà rốt, súp lơ và đậu cô ve luộc, 2 ly nước \n
+Rau có tất cả các chất dinh dưỡng để cung cấp năng lượng cho cơ thể, các vitamin, chất xơ, protein và các dưỡng chất khác. \n
+
+Các thực phẩm cần tránh: Tất cả các loại trái cây vào ngày này, tinh bột, đường, chất béo, dầu mỡ, đồ uống có ga..\n
+"  ></TextView>
+        <ImageView
+            android:id="@+id/imgtc3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/giamcan3"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày 3: Ăn các loại rau quả của ngày 1 và ngày 2. \n
+
+Bữa sáng:\n
+
+- 8h - 9h: Một bát dưa lưới thái miếng hoặc 1 quả táo, 2 ly nước\n
+
+Bữa trưa:\n
+
+- 11h - 12h: Một nửa quả dứa hoặc 1 quả lê, 2 lít nước\n
+
+- 13h30 - 14h: Salad dưa chuột, cà rốt, rau diếp xoăn; 2 ly nước\n
+
+Bữa chiều:\n
+
+- 16h - 17h: Một quả cam, nửa quả dưa lưới, 1 ly nước\n
+
+Bữa tối:\n
+
+- 18h30 - 19h: Một quả lê, 1 ly nước\n
+
+- 20h - 21h: Súp lơ luộc, củ cải luộc, 2 ly nước \n
+Các thực phẩm cần tránh: Tinh bột, đường, chất béo, dầu mỡ, đồ uống có ga. \n"/>
+        <ImageView
+            android:id="@+id/imgtc4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/giamcan4"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày 4: Chỉ bao gồm 8 quả chuối và 3 cốc sữa. Bạn phân bổ thời gian để ăn sao cho hợp lý mà không bị đói. Ngoài ra có thể bổ sung canh rau củ. \n
+
+Bữa sáng:\n
+
+- 8h - 9h: Hai quả chuối, 1 cốc sữa\n
+
+Bữa trưa:\n
+
+- 11h - 12h: Một quả chuối lắc với nửa thìa mật ong\n
+
+- 13h30 - 14h: Một bát súp canh rau củ GM\n
+
+Bữa chiều:\n
+
+- 16h - 17h: Một quả chuối, 1 cốc sữa\n
+
+Bữa tối:\n
+
+- 18h30 - 19h: Hai quả chuối\n
+
+- 20h - 21h: Hai quả chuối, 1 cốc sữa \n
+Sữa và chuối giúp bù đắp lượng natri và kali trong 3 ngày trước đó. Uống từ 8 đến 12 ly nước \n
+
+Các thực phẩm cần tránh: Khoai tây và khoai lang, các loại quả, chất béo, tinh bột, các loại thịt, đường, đồ uống có ga\n
+"/>
+        <ImageView
+            android:id="@+id/imgtc5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/giamcan5"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày thứ 5: Gồm cơm gạo lứt và cà chua. Ngoài ra bạn có thể bổ sung một ít thịt ức gà, cá chứa protein nếu bạn không ăn chay. \n
+
+Bữa sáng:\n
+
+- 8h - 9h: Một vài quả cà chua nhỏ, 1 bát đậu cô ve luộc, 2 ly nước\n
+
+Bữa trưa:\n
+
+- 11h - 12h: Một cốc sữa chua, 2 ly nước\n
+
+- 13h30 - 14h: Một bát cơm gạo lứt hoặc ức gà, 2 quả cà chua, 2 ly nước\n
+
+Bữa chiều\n
+
+- 16h - 17h: Salad cà chua hành tây và rau mầm, 2 ly nước\n
+
+- 18h30 - 19h: Một quả táo và 1 quả lê\n
+
+Bữa tối\n
+
+- 20h - 21h: Canh súp rau củ GM, 2 ly nước \n
+Thực phẩm cần tránh: Khoai tây, khoai lang, chuối, thịt bò, thịt lợn, chất béo dầu mỡ, gạo trắng, bánh mì, đường, sữa \n
+
+Lưu ý: Khi ăn cà chua nhiều sẽ làm tăng acid uric vì vậy, bạn cần tăng lượng nước uống khoảng 10 đến 15 ly nước trong ngày để đào thải uric khỏi cơ thể.\n
+"/>
+        <ImageView
+        android:id="@+id/imgtc6"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/giamcan6"
+        android:layout_marginTop="2dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày thứ 6: Bạn sẽ thấy cân nặng giảm rệt rõ. Ngày 6 bạn ăn các loại rau tùy ý bao nhiêu tùy thích nhưng không được xào, không ăn nhiều xà lách. Bạn có thể ăn 2 bát cơm gạo lứt hoặc 500g thịt ức gà, cá để bổ sung protein vào buổi trưa và chiều. \n
+
+Bữa sáng \n
+
+- 8h - 9h: Một bát rau luộc, 2 ly nước \n
+
+Bữa trưa \n
+
+- 11h - 12h: Một bát đậu tây luộc trộn với cà chua thái hạt lựu, 2 ly nước \n
+
+- 13h30 - 14h: Một bát cơm gạo lứt hoặc ức gà, cá, 2 ly nước \n
+
+Bữa chiều \n
+
+- 16h - 17h: 3 hoặc 4 củ cà rốt luộc, 1 ly nước \n
+
+Bữa tối \n
+
+- 18h30 - 19h: Một bát cơm gạo lứt, 1 ly nước \n
+
+- 20h - 21h: Một bát rau luộc, 1 ly nước \n
+Thực phẩm cần tránh: Khoai tây, khoai lang, các loại quả, thịt bò, thịt lợn, chất béo dầu mỡ, gạo trắng, bánh mì, đường, sữa. \n
+"/>
+        <ImageView
+            android:id="@+id/imgtc7"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/giamcan7"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn ngày thứ 7 \n
+
+Trong ngày cuối cùng của chế độ ăn giảm cân General Motor Diet, bạn thoải mái ăn rau xanh, trái cây và 1 bát cơm gạo lứt. Bổ sung thêm nước ép trái cây không đường tùy thích sau bữa ăn.\n
+
+Bữa sáng\n
+
+- 8h - 9h: Salad rau trộn, 1 ly nước ép táo\n
+
+Bữa trưa\n
+
+- 11h - 12h: Một bát canh rau củ GM, 1 củ cà rốt luộc, 1 ly nước\n
+
+- 13h30 - 14h: Một bát cơm gạo lứt, 1 bát rau luộc, 2 ly nước\n
+
+Bữa chiều\n
+
+- 16h - 17h: Hai củ cà rốt luộc, 1 ly nước ép Kiwi\n
+
+Bữa tối\n
+
+- 18h30 - 19h: Salad rau trộn, 2 ly nước\n
+
+- 20h - 21h: Một bát canh rau củ GM, 2 ly nước\n
+Thực hiện xong lịch trình 7 ngày, bạn có thể giảm từ 6,8 đến 8kg nếu áp dụng đúng cách. Sau đó cần giữ chế độ ăn kiêng hợp lý, tránh ăn nhiều thịt có hàm lượng mỡ cao, không ăn quá nhiều tinh bột, đường để bù lại những ngày ăn kiêng, như vậy bạn sẽ lại tăng cân như thường. Tập thể dục đều đặn sẽ giúp thân hình săn chắc, dẻo dai hơn. \n
+"/>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TangCan"
+    android:padding="10dp"
+    android:background="#FFFFFF">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgtc1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/binhthuong1"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn cho thứ Hai: \n
+
+Bữa sáng:\n 1 lát bánh mì gối + 1 quả trứng luộc + 1 cốc trà (hoặc 1 cốc cà phê đen) \n
+
+Bữa trưa: \n ½ bát cơm gạo lứt + 1 bát rau xào (giá đỗ + 1 thìa dầu oliu) + suất thăn bò kho (50g thăn bò + 60g củ cải + 30g cà rốt) + 1 bát canh mướp + 1 quả lê \n
+
+Bữa tối: \n ½ bát cơm gạo lứt + xào đậu đũa (đậu bắp) (70g đậu đũa + 1 thìa dầu oliu) + ½ con cá hấp (thêm ít gừng) + canh củ cải (50g củ cải) + 1 quả cà chua \n \n
+
+Thực đơn cho thứ Ba: \n
+
+Bữa sáng: \n 1 suất sanwich (2 miếng bánh mì gối kẹp nửa quả cà chua + 1 cái xúc xích) \n
+
+Bữa trưa: \n 1 bát mỳ vằn thắn (4 vằn thắn + nửa bát mỳ + 1 nắm rau cải chíp) + 1 bát sa lát rong biển thái sợi +1 quả táo \n
+
+Bữa tối: ½ bát cơm nấu bằng gạo ngũ cốc + 1 bát salat rau cần tây + 1 bát canh miso (2 miếng đậu phụ) + 1 quả khế \n \n
+
+Thực đơn cho thứ Tư: \n
+
+Bữa sáng: 2 lát bánh mì gối + 1 quả trứng luộc + 1 cốc trà xanh + 1 quả cà chua to \n
+
+Bữa trưa: ½ bát cơm nấu bằng gạo ngũ cốc + 1 đĩa nấm xào + 1 bát canh bí đao + 1 quả cam \n
+
+Bữa tối: ½ bát cơm gạo lứt + 1 đĩa rau luộc + 1 quả trứng gà xào hành tây + 1 bát canh nấm kim châm (30g nấm kim châm) + 1 quả kiwi \n \n
+
+Thực đơn cho thứ Năm: \n
+
+Bữa sáng: 1 bát cháo trắng + 1 quả trứng ốp la + 1 đĩa rau luộc \n
+
+Bữa trưa: 1 suất sanwich cá ngừ (30g cá ngừ ngâm muối, ½ quả cà chua, dưa chuột nhỏ) + 1 đĩa salat (có cần tây, xà lách) +1 quả táo \n
+
+Bữa tối: ½ bát cơm gạo lứt + 1 đĩa cải ngồng luộc + ½ con cá hấp + 1 bát canh bí đao + 1 quả lê" />
+        <ImageView
+            android:id="@+id/imgtc2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/binhthuong2"
+            android:layout_marginTop="2dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" \nThực đơn cho thứ Sáu: \n
+
+Bữa sáng: 2 lát bánh mì gối + 2 quả trứng luộc \n
+
+Bữa trưa: ½ bát cơm nấu bằng gạo ngũ cốc + 1 đĩa gà xào giá + 1 đĩa dưa chuột xào khoai nưa + canh củ cải + 1 quả cam \n
+
+Bữa tối: ½ bát cơm gạo lứt + 1 bát rau xào (giá đỗ + 1 thìa dầu oliu) + măng chua + 1 bát canh mướp + 10 quả cà chua bi \n \n
+
+Thực đơn cho thứ Bảy:\n
+
+Bữa sáng: 1 bắp ngô + 2 bánh mì ngọt nhỏ\n
+
+Bữa trưa: ½ bát cơm gạo lứt + ½ con cá hấp + 1 bát salat rau cần tây + 1 bát canh rau bina + 1 quả khế \n
+
+Bữa tối: ½ bát cơm gạo lứt  + 1 đĩa cải xoăn xào (50g cải xoăn + 1 thìa dầu oliu) + 4 miếng đậu phụ khô + canh sườn nấm + 1 quả táo \n \n"  ></TextView>
+        <ImageView
+        android:id="@+id/imgtc3"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/binhthuong3"
+        android:layout_marginTop="2dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thực đơn cho Chủ Nhật: \n
+
+Bữa sáng: 2 lát bánh mì gối + 1 quả trứng rán \n
+
+Bữa trưa: 1 bát mỳ thịt bò cà chua (100g mỳ chín + 100g thịt bò + 100g rau cải) + salat dưa chuột + ½ quả đu đủ \n
+
+Bữa tối: ½ bát cơm gạo lứt + 1 đĩa cà chua xào trứng (1 quả trứng + 1 quả cà chua) + 1 đĩa rau bina luộc + canh khổ qua (nửa quả khổ qua) + 2 quả kiwi \n
+
+Cố gắng giữ chế độ ăn uống hợp lý và vận động thường xuyên để có vóc dáng đẹp như mong muốn nhé!"
+            />
+    </TableLayout>
+</ScrollView>
