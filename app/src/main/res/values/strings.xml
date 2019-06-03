@@ -16,5 +16,6 @@
     <string name="t_nh_bmi_chu_n_v_nh_ng_l_i_khuy_n_b_ch_cho_b_n">Tính BMI chuẩn và những lời khuyên bổ ích cho bạn</string>
     <string name="bmi_c_a_b_n_l">BMI của bạn là:</string>
     <string name="t_nh">TÍNH</string>
+    <string name="chuyentrang">Button</string>
 
 </resources>

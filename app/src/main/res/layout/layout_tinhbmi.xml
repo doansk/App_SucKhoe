@@ -7,32 +7,32 @@
     android:background="@drawable/hn2">
 
     <TableLayout
-        android:background="#66FF66"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:gravity="center"
+            android:background="#2FFFFFFF"
             android:text="@string/t_nh_bmi_chu_n_v_nh_ng_l_i_khuy_n_b_ch_cho_b_n"
-            android:textColor="#0033FF"
+            android:textColor="#FFFFFF"
             android:textSize="20sp"
             tools:layout_editor_absoluteX="163dp"
             tools:layout_editor_absoluteY="56dp" />
 
         <TableRow
-            android:paddingRight="10dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:background="#EEEEEE"
+            android:layout_width="244dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
+            android:background="#7C000000"
             android:orientation="vertical"
-            android:layout_width="233dp"
-            android:layout_height="108dp">
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
 
             <TextView
                 android:id="@+id/bmiten"
@@ -40,26 +40,29 @@
                 android:layout_height="wrap_content"
                 android:text="@string/h_v_t_n"
                 android:textAlignment="textEnd"
+                android:textColor="#ffff"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="116dp" />
 
             <EditText
+                android:id="@+id/hoten"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
+                android:autofillHints=""
                 android:background="#fff"
-                android:paddingRight="10dp"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp"
-                android:id="@+id/hoten"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="141dp"
-                android:autofillHints="" tools:targetApi="o" />
+                tools:targetApi="o" />
 
         </TableRow>
 
@@ -68,7 +71,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:background="#EEEEEE"
+            android:background="#7C000000"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
@@ -82,7 +85,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/ng_y_o"
                 android:textAlignment="textEnd"
+                android:textColor="@color/white"
                 android:textSize="18sp"
+                android:textStyle="bold"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="116dp" />
 
@@ -108,7 +113,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:background="#EEEEEE"
+            android:background="#7C000000"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
@@ -121,6 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tu_i"
+                android:textColor="#ffff"
                 android:textAlignment="textEnd"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
@@ -150,7 +156,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:background="#EEEEEE"
+            android:background="#7C000000"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
@@ -164,6 +170,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/chi_u_cao_cm"
                 android:textAlignment="textEnd"
+                android:textColor="#ffff"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="116dp" />
@@ -192,7 +199,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:background="#EEEEEE"
+            android:background="#7C000000"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
@@ -205,6 +212,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/c_n_n_ng_kg"
+                android:textColor="#ffff"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="116dp" />
@@ -250,7 +258,7 @@
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:background="#EEEEEE"
+            android:background="#7C000000"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
@@ -263,6 +271,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/bmi_c_a_b_n_l"
+                android:textColor="#ffff"
                 android:textAlignment="textEnd"
                 android:textSize="18sp"
                 tools:layout_editor_absoluteX="16dp"
