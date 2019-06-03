@@ -30,16 +30,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 //        click item
         if (savedInstanceState == null){
         getSupportFragmentManager().beginTransaction().replace(R.id.Nen,
-                new BaoThuc()).commit();
-        navigationView.setCheckedItem(R.id.baothuc);}
+                new DongHo()).commit();
+        navigationView.setCheckedItem(R.id.dongho);}
     }
 //    Item list
         @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-            case R.id.baothuc:
+            case R.id.dongho:
                 getSupportFragmentManager().beginTransaction().replace(R.id.Nen,
-                        new BaoThuc()).commit();
+                        new DongHo()).commit();
                 break;
             case R.id.anuong:
                 getSupportFragmentManager().beginTransaction().replace(R.id.Nen,
