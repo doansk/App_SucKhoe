@@ -5,12 +5,49 @@
     android:id="@+id/BT"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hn1">
+    android:background="#F0BDE6">
+
+        <AnalogClock
+            android:id="@+id/simpleAnalogClock"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/dongho2"
+            android:padding="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <DigitalClock
+            android:id="@+id/simpleDigitalClock"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="67dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/donghodientu"
+            android:paddingLeft="75dp"
+            android:paddingTop="25dp"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/simpleAnalogClock" />
 
         <AnalogClock
             android:id="@+id/simpleAnalogClock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_centerHorizontal="true"
             android:layout_marginStart="70dp"
             android:layout_marginTop="79dp"
@@ -48,5 +85,19 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="@+id/simpleDigitalClock"
             app:layout_constraintStart_toStartOf="@+id/simpleDigitalClock"
+=======
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="97dp"
+            android:background="#FFFFFF"
+            android:padding="10dp"
+            android:text="Đặt báo thức"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+>>>>>>> Huy
             app:layout_constraintTop_toBottomOf="@+id/simpleDigitalClock" />
 </android.support.constraint.ConstraintLayout>
