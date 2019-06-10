@@ -23,3 +23,7 @@
 4. Tính năng ghi chú : *Bạn có thể ghi lại những gì bạn muốn, ví dụ như tình trạng sức khỏe của bạn, cân nặng, chiều cao. bạn note lại mỗi ngày và xem bạn đã thay đổi 1 cách đáng kể như thế nào nhé*
 
 <img src="imgGioiThieu/GT8.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_1.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_2.png" alt="drawing" width="250px"/>
+
+# CHÚNG TÔI MONG PHẦN MỀM NÀY SẼ HỮU ÍCH CHO SỨC KHỎE CỦA BẠN
+# Người thực hiện: Lê Quốc Huy + Hà Văn Tâm
+
