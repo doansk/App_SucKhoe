@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BaoThuc"></activity>
+        <activity android:name=".Vietghichu"></activity>
+        <activity android:name=".BaoThuc" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +20,10 @@
         </activity>
 
         <receiver android:name=".AlramReceiver" />
-        <service android:name=".Music" android:enabled="true"></service>
+
+        <service
+            android:name=".Music"
+            android:enabled="true" />
     </application>
 
 </manifest>

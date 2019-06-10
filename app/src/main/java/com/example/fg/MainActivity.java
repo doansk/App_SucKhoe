@@ -49,6 +49,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 getSupportFragmentManager().beginTransaction().replace(R.id.Nen,
                         new TinhBMI()).commit();
                 break;
+            case R.id.ghichu:
+                getSupportFragmentManager().beginTransaction().replace(R.id.Nen,
+                        new GhiChu()).commit();
+                break;
         }
         hienthi.closeDrawer(GravityCompat.START);
         return true;
