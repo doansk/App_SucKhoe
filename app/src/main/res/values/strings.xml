@@ -17,5 +17,6 @@
     <string name="bmi_c_a_b_n_l">BMI của bạn là:</string>
     <string name="t_nh">TÍNH</string>
     <string name="chuyentrang">Button</string>
+    <string name="ghi_ch">Ghi Chú</string>
 
 </resources>
