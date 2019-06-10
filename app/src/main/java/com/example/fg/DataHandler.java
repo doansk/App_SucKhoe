@@ -64,7 +64,7 @@ public class DataHandler extends SQLiteOpenHelper  {
             //nhận giá trị cột thứ hai (StudentName)
             String result_1 = cursor.getString(1);
             //hiển thị mỗi hàng trong một chuỗi
-            result += result_0 + " " + result_1 +
+            result += result_1 + ": " + result_0 +
                     System.getProperty("line.separator");
         }
         //đóng đối tượng Cursor
@@ -87,7 +87,7 @@ public class DataHandler extends SQLiteOpenHelper  {
         db.close();
     }
 
-    public boolean deleteDataHandler(int ID) {
+    public boolean deleteDataHandler(String ID) {
         boolean result = false;
         String query = "Select * FROM "
                 + TABLE_NAME + " WHERE "
