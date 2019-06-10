@@ -19,9 +19,11 @@ public class BangGhiChu {
     //các phương thức truy cập các biến thành viên
 
     public String getStudentID(){
+
         return this._studentid;
     }
     public void setStudentID(String id){
+
         this._studentid = id;
     }
 

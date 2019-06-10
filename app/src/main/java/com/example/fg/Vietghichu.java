@@ -32,10 +32,17 @@ public class Vietghichu extends AppCompatActivity {
         //gán id và name đến đối tượng Student
         BangGhiChu student = new BangGhiChu(id, name);
         //thêm đối tượng Student đến bảng dữ liệu
-        dbHandler.addDataHandler(student);
+        if (nhapten.length() == 0){
+            nhapten.setHint("Hãy nhập nội dung");
+        }
+        if (nhapnoidung.length() == 0){
+            nhapnoidung.setHint("Hãy nhập tên");
+        }
+        else dbHandler.addDataHandler(student);
         //xóa sạch các PlainText
         nhapten.setText("");
         nhapnoidung.setText("");
+        loadStudents(view);
     }
 
     public void loadStudents(View view) {
@@ -50,13 +57,14 @@ public class Vietghichu extends AppCompatActivity {
 
     public void deleteStudent(View view) {
         DataHandler dbHandler = new DataHandler(this, null, null, 1);
-        boolean result = dbHandler.deleteDataHandler(Integer.parseInt(nhapten.getText().toString()));
+        boolean result = dbHandler.deleteDataHandler(nhapten.getText().toString());
         if (result) {
             nhapten.setText("");
             nhapnoidung.setText("");
-            datalist.setText("Đã xóa ghi chú");
+            datalist.setHint("Đã xóa ghi chú");
         } else
-            nhapten.setText("Không tìm thấy bản ghi chú");
+            nhapten.setHint("Không tìm thấy bản ghi chú");
+        loadStudents(view);
     }
 
 
@@ -77,7 +85,7 @@ public class Vietghichu extends AppCompatActivity {
             }
             datalist.setText(studentsList);
         } else {
-            datalist.setText("Không tìm thấy ghi chú");
+            datalist.setHint("Không tìm thấy ghi chú");
             nhapten.setText("");
             nhapnoidung.setText("");
         }
