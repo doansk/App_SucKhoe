@@ -22,7 +22,7 @@ public class GhiChu extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_ghi_chu, container, false);
-        final Button nextvietghichu = view.findViewById(R.id.button2);
+        final Button nextvietghichu = view.findViewById(R.id.btnghichu);
         nextvietghichu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
