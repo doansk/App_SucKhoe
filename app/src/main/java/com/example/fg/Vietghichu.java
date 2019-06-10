@@ -77,8 +77,8 @@ public class Vietghichu extends AppCompatActivity {
         if (!lst.isEmpty()) {
             for(BangGhiChu st:lst)
             {
-                studentsList += String.valueOf(st.getStudentID())
-                        + " " + st.getStudentName()
+                studentsList += st.getStudentName()
+                        + ": " + st.getStudentID()
                         + System.getProperty("line.separator");
                 nhapten.setText("");
                 nhapnoidung.setText("");
