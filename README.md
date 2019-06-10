@@ -20,3 +20,6 @@
 3. Tính BMI cho bạn : *BMI với tắt của từ Body Mass Index, chỉ số khối lượng cơ thể của bạn. với tính năng này, có thể tính toán chính xác nhất về khối lượng cơ thể hiện tại của bạn để biết được bạn thuộc tuýp người mập, gầy hay bình thường, để bạn chọn chế độ ăn cho phù hợp và sắp xếp thời gian để cơ thể của bạn luôn khỏe mạnh*
 
 <img src="imgGioiThieu/GT7.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT7_1.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT7_2.png" alt="drawing" width="250px"/>
+4. Tính năng ghi chú : *Bạn có thể ghi lại những gì bạn muốn, ví dụ như tình trạng sức khỏe của bạn, cân nặng, chiều cao. bạn note lại mỗi ngày và xem bạn đã thay đổi 1 cách đáng kể như thế nào nhé*
+
+<img src="imgGioiThieu/GT8.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_1.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_2.png" alt="drawing" width="250px"/>
