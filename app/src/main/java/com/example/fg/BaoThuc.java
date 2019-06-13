@@ -58,7 +58,7 @@ public class BaoThuc extends AppCompatActivity {
         dunglai.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                htgio.setText("Ngưng Báo Thức");
+                htgio.setText("Tắt Chuông");
                 alarmManager.cancel(pendingIntent);
                 intent.putExtra("extra","off");
                 sendBroadcast(intent);
