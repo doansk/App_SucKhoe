@@ -26,38 +26,44 @@ public class BaoThuc extends AppCompatActivity {
         final TimePicker dongho = findViewById(R.id.timePicker);
         calendar = Calendar.getInstance();
         alarmManager = (AlarmManager)getSystemService(ALARM_SERVICE);
-        final Intent intent = new Intent(BaoThuc.this,AlarmManager.class);
+        final Intent intent = new Intent(BaoThuc.this,AlramReceiver.class);
         hengio.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                calendar.set(Calendar.HOUR_OF_DAY,dongho.getCurrentHour());
-                calendar.set(Calendar.MINUTE,dongho.getCurrentMinute());
-                int gio = dongho.getCurrentHour();
-                int phut =dongho.getCurrentMinute();
+            public void onClick(View view){
+                calendar.set(Calendar.HOUR_OF_DAY,dongho.getHour());
+                calendar.set(Calendar.MINUTE,dongho.getMinute());
+
+                int gio = dongho.getHour();
+                int phut = dongho.getMinute();
+
                 String string_gio = String.valueOf(gio);
                 String string_phut = String.valueOf(phut);
 
-                if (gio > 12){
-                    string_gio = String.valueOf(gio = 12);
+                if (gio > 12 ){
+                    string_gio = String.valueOf(gio - 12);
                 }
-                if(phut < 10){
+                if (phut < 10 ){
                     string_phut = "0" + String.valueOf(phut);
                 }
+                intent.putExtra("extra","on");
+
                 pendingIntent = PendingIntent.getBroadcast(
                         BaoThuc.this,0,intent,PendingIntent.FLAG_UPDATE_CURRENT
                 );
                 alarmManager.set(AlarmManager.RTC_WAKEUP,calendar.getTimeInMillis(),pendingIntent);
-                htgio.setText("Giờ bạn đặt là:" +string_gio+ ":" +string_phut+"");
+
+                htgio.setText("Giờ bạn đặt là:" + string_gio + ":" + string_phut);
+            }
+        });
+        dunglai.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                htgio.setText("Tắt Chuông");
+                alarmManager.cancel(pendingIntent);
+                intent.putExtra("extra","off");
+                sendBroadcast(intent);
 
             }
         });
-        dunglai.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                htgio.setText("Dừng lại:");
-                pendingIntent.cancel();
-            }
-        });
-        return;
     }
 }

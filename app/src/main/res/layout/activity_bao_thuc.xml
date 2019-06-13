@@ -5,54 +5,86 @@
     android:id="@+id/BT"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hn1">
+    android:background="#F3C9EB">
+
     <TimePicker
         android:id="@+id/timePicker"
-        android:layout_width="0dp"
+        android:layout_width="411dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:headerBackground="#68000000"
+        android:numbersBackgroundColor="#86000000"
+        android:numbersSelectorColor="#B0FDFCFC"
+        android:numbersTextColor="#F8F8EA"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <Button
-        android:id="@+id/bnthengio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="134dp"
-        android:text="Báo Thức"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/bntdunglai"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timePicker" />
 
-    <Button
-        android:id="@+id/bntdunglai"
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="134dp"
-        android:text="Dừng lại"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/bnthengio"
-        app:layout_constraintTop_toBottomOf="@+id/timePicker" />
-
-    <TextView
-        android:id="@+id/hienthigio"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="175dp"
-        android:layout_marginTop="103dp"
-        android:layout_marginEnd="177dp"
-        android:layout_marginBottom="96dp"
-        android:textSize="18sp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timePicker" />
+        app:layout_constraintTop_toBottomOf="@+id/timePicker"
+        tools:ignore="MissingConstraints">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/hienthigio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/bnthengio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="34dp"
+                android:background="#86000000"
+                android:text="Báo Thức"
+                android:textColor="#fff"
+                app:layout_constraintBottom_toTopOf="@+id/bntdunglai"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/bntdunglai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#86000000"
+                android:text="Dừng lại"
+                android:textColor="#fff"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bnthengio" />
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/hienthigio"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginBottom="34dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>
