@@ -12,7 +12,7 @@
 # 1. Tính năng đồng hồ:
 *Khi hay quên giờ thì tính năng này sẽ giúp bạn đáng kể đó, bạn sẽ làm chủ được thời gian của mình cùng với tính năng đồng hồ cùng với đặt báo thức để nhắc bạn không quên giờ hay thúc đẩy bạn như trong việc ăn uống đúng giờ, tập thể thao.....*
 
-<img src="imgGioiThieu/GT3.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT4.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT5.png" alt="drawing" width="250px"/>
+<img src="imgGioiThieu/GT3.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT4.png" alt="drawing" width="250px"/> 
 
 # 2. Chế độ Ăn uống hợp lý: 
 *Khi trong ngày bạn không biết bạn nên ăn những món gì hay nên ăn gì để hợp với thể trạng hiện tại của bạn, thì với ứng dụng hữu ích này sẽ có sẵn thực đơn bồ bổ cho bạn 1 cách hợp lý nhất*
@@ -26,7 +26,7 @@
 # 4. Tính năng ghi chú : 
 *Bạn có thể ghi lại những gì bạn muốn, ví dụ như tình trạng sức khỏe của bạn, cân nặng, chiều cao. bạn note lại mỗi ngày và xem bạn đã thay đổi 1 cách đáng kể như thế nào nhé*
 
-<img src="imgGioiThieu/GT8.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_1.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_2.png" alt="drawing" width="250px"/>
+<img src="imgGioiThieu/GT8.png" alt="drawing" width="250px"/> <img src="imgGioiThieu/GT8_1.png" alt="drawing" width="250px"/> 
 
 # CHÚNG TÔI MONG PHẦN MỀM NÀY SẼ HỮU ÍCH CHO SỨC KHỎE CỦA BẠN
 # Người thực hiện: Lê Quốc Huy + Hà Văn Tâm
